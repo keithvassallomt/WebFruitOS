@@ -2,7 +2,7 @@
 
 This is a template for a responsive web application with an interface reminiscent of a famously fruit-based operating system. 
 
-https://github.com/keithvassallomt/WebFruitOS/tree/main/_readme_assets/WebFruitOS.mp4
+https://github.com/user-attachments/assets/738d5b9f-9de4-40fe-ab0c-acad1059e834
 
 # Features
 
