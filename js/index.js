@@ -7,32 +7,32 @@ const routes = {
         title: '404',
         description: 'Page not found'
     },
-    'pint-sized': {
-        template: '/_pages/pint-sized.html',
+    home: {
+        template: '/_pages/home.html',
         title: 'Home',
         description:
-            'Pint-Sized Softwre: Desktop, Web & Mobile app development.'
+            'Describe your site here.'
     },
-    taskbridge: {
-        template: '/_pages/taskbridge.html',
+    product: {
+        template: '/_pages/product.html',
         title: 'About Us',
         description:
-            'TaskBridge: Synchronise your Apple Notes & Remidners with NextCloud or CalDAV.'
+            'Product: Your product description goes here.'
     },
     contact: {
         template: '/_pages/contact.html',
         title: 'Contact Us',
-        description: 'Contact Pint-Sized Software.'
+        description: 'Contact Us.'
     },
     links: {
         template: '/_pages/links.html',
         title: 'Links',
-        description: 'Links related to Pint-Sized Software.'
+        description: 'Our links.'
     },
     github: {
         template: '/_pages/github.html',
         title: 'GitHub',
-        description: 'Pint-Sized Software GitHub links.'
+        description: 'GitHub links.'
     }
 };
 
@@ -234,7 +234,7 @@ function bindWindow(location) {
 function bindContactForm() {
     const form = document.getElementById('contactForm');
     const url =
-        'https://2f3i1gm22c.execute-api.us-east-1.amazonaws.com/dev/email/send';
+        'YOUR API ENDPOINT FOR CONTACT GOES HERE';
     const toast = document.getElementById('contact-result');
     const submit = document.getElementById('btn-send');
 
@@ -299,7 +299,7 @@ function bindContactForm() {
 
 const pageHandler = async (evt = undefined, hash = undefined) => {
     // Figure out where to go
-    let button = document.getElementById('pint-sized');
+    let button = document.getElementById('home');
     if (evt) {
         evt.preventDefault();
         button = evt.target;
