@@ -2,6 +2,8 @@
 
 This is a template for a responsive web application with an interface reminiscent of a famously fruit-based operating system. 
 
+https://github.com/keithvassallomt/WebFruitOS/tree/main/_readme_assets/WebFruitOS.mp4
+
 # Features
 
 - Responsive design.
@@ -16,6 +18,3 @@ This is a template for a responsive web application with an interface reminiscen
 - [macOS Dock](https://codepen.io/vihanga/pen/gOmXvRr).
 - [Bootstrap](https://getbootstrap.com).
 - [Bootstrap Icons](https://icons.getbootstrap.com).
-
-
-

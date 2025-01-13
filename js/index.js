@@ -196,6 +196,7 @@ function handleWindow() {
             '#' + win.id + ' .closebutton'
         );
         ['click', 'touchstart'].forEach((e) => {
+            console.log(win);
             zoomButton.addEventListener(e, handleZoom);
             closeButton.addEventListener(e, () => {
                 const buttonId = win.id.slice(0, -7);
