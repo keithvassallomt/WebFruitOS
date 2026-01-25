@@ -1,4 +1,4 @@
-# WebFruitUI
+# WebFruitOS
 
 This is a template for a responsive web application with an interface reminiscent of a famously fruit-based operating system. 
 
